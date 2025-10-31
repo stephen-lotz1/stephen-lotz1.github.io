@@ -118,9 +118,9 @@ main {
 }
 
 .card {
-  background: var(--card);
+  background: var(--card));
   border: 1px solid var(--border);
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 30px;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.04);
   transition: box-shadow 0.3s, transform 0.3s;

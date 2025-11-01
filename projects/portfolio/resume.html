@@ -1,109 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Resume | Stephen Lotz</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="Professional experience, education, and skills of Stephen Lotz, freelance journalist and University of Maryland journalism student." />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">About</a></li>
-        <li><a href="clips.html">Clips</a></li>
-        <li><a href="resume.html" class="active">Resume</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Stephen Lotz</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="clips.html">Clips</a></li>
+          <li class="nav-item"><a class="nav-link active text-primary fw-semibold" href="resume.html">Resume</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-  <main class="resume-page">
-    <section class="resume-header">
-      <h1>Stephen Lotz</h1>
-      <p class="contact-info">
-        Hampstead, Maryland | 
-        <a href="mailto:slotz@terpmail.umd.edu">slotz@terpmail.umd.edu</a> | 
-        443-789-3347
-      </p>
-    </section>
+  <main class="container py-5">
+    <div class="card p-5 mx-auto" style="max-width: 1000px;">
+      <header class="text-center mb-4">
+        <h1 class="mb-2">Stephen Lotz</h1>
+        <p class="mb-0">
+          Hampstead, Maryland • 
+          <a href="mailto:slotz@terpmail.umd.edu">slotz@terpmail.umd.edu</a> • 
+          443-789-3347
+        </p>
+      </header>
 
-    <div class="resume-grid">
-      <aside class="resume-left">
-        <section>
-          <h2>Education</h2>
-          <h3>University of Maryland, Philip Merrill College of Journalism</h3>
-          <p><em>B.A. Journalism — Expected Graduation: Fall 2026</em></p>
+      <div class="row g-5">
+        <aside class="col-md-5">
+          <section class="mb-4">
+            <h2 class="border-bottom border-2 border-primary pb-1 mb-3">Education</h2>
 
-          <h3>University of South Carolina, Darla Moore School of Business</h3>
-          <p><em>August 2022 – December 2023 (Transferred)</em></p>
-        </section>
+            <h3 class="h5 mb-1">University of Maryland, Philip Merrill College of Journalism</h3>
+            <p class="mb-3"><em>B.A. Journalism — Expected Graduation: Fall 2026</em></p>
 
-        <section>
-          <h2>Skills</h2>
-          <ul>
-            <li>AP Style and News Writing</li>
-            <li>Adobe Creative Cloud (Premiere, Photoshop, Illustrator)</li>
-            <li>HTML, CSS, and Python</li>
-            <li>Audience Analytics (Parse.ly)</li>
-            <li>MS Office Suite</li>
-          </ul>
-        </section>
-      </aside>
+            <h3 class="h5 mb-1">University of South Carolina, Darla Moore School of Business</h3>
+            <p class="mb-0"><em>August 2022 – December 2023 (Transferred)</em></p>
+          </section>
 
-      <div class="resume-right">
-        <section>
-          <h2>Experience</h2>
+          <section>
+            <h2 class="border-bottom border-2 border-primary pb-1 mb-3">Skills</h2>
+            <ul class="mb-0">
+              <li>AP Style and News Writing</li>
+              <li>Adobe Creative Cloud (Premiere, Photoshop, Illustrator)</li>
+              <li>HTML, CSS, and Python</li>
+              <li>Audience Analytics (Parse.ly)</li>
+              <li>MS Office Suite</li>
+            </ul>
+          </section>
+        </aside>
 
-          <h3>Freelance Reporter — <em>Greenbelt News Review</em></h3>
-          <p><em>September 2025 – Present</em></p>
-          <ul>
-            <li>Report on city government, education, and community issues for weekly print and online publication.</li>
-            <li>Cover Greenbelt City Council meetings and policy developments.</li>
-            <li>Collaborate with editors to produce accurate, deadline-driven coverage.</li>
-          </ul>
+        <div class="col-md-7">
+          <section class="mb-5">
+            <h2 class="border-bottom border-2 border-primary pb-1 mb-3">Experience</h2>
 
-          <h3>Reporter / Anchor — WMUC-FM</h3>
-          <p><em>September 2024 – December 2024</em></p>
-          <ul>
-            <li>Reported campus stories and delivered on-air news segments focused on student life and policy.</li>
-            <li>Produced audio packages and managed interview segments for live shows.</li>
-          </ul>
+            <div class="experience-item mb-4">
+              <h3 class="h5 mb-1">Freelance Reporter — <em>Greenbelt News Review</em></h3>
+              <p class="mb-2"><em>September 2025 – Present</em></p>
+              <ul class="mb-0">
+                <li>Report on city government, education, and community issues for weekly print and online publication.</li>
+                <li>Cover Greenbelt City Council meetings and policy developments.</li>
+                <li>Collaborate with editors to produce accurate, deadline-driven coverage.</li>
+              </ul>
+            </div>
 
-          <h3>Team Member — Target (Westminster, MD)</h3>
-          <p><em>April 2022 – Present</em></p>
-          <ul>
-            <li>Fulfilled customer orders and maintained efficient store operations in a fast-paced environment.</li>
-          </ul>
+            <div class="experience-item mb-4">
+              <h3 class="h5 mb-1">Reporter / Anchor — WMUC-FM</h3>
+              <p class="mb-2"><em>September 2024 – December 2024</em></p>
+              <ul class="mb-0">
+                <li>Reported campus stories and delivered on-air news segments focused on student life and policy.</li>
+                <li>Produced audio packages and managed interview segments for live shows.</li>
+              </ul>
+            </div>
 
-          <h3>Intern — State Farm (Pikesville, MD)</h3>
-          <p><em>June 2021 – August 2021</em></p>
-          <ul>
-            <li>Assisted agents with documentation and communications for client service and sales operations.</li>
-          </ul>
+            <div class="experience-item mb-4">
+              <h3 class="h5 mb-1">Team Member — Target (Westminster, MD)</h3>
+              <p class="mb-2"><em>April 2022 – Present</em></p>
+              <ul class="mb-0">
+                <li>Fulfilled customer orders and maintained efficient store operations in a fast-paced environment.</li>
+              </ul>
+            </div>
 
-          <h3>Employee — Walmart (Hampstead, MD)</h3>
-          <p><em>July 2020 – December 2020</em></p>
-          <ul>
-            <li>Supported sales operations and customer service during high-volume retail shifts.</li>
-          </ul>
-        </section>
+            <div class="experience-item mb-4">
+              <h3 class="h5 mb-1">Intern — State Farm (Pikesville, MD)</h3>
+              <p class="mb-2"><em>June 2021 – August 2021</em></p>
+              <ul class="mb-0">
+                <li>Assisted agents with documentation and communications for client service and sales operations.</li>
+              </ul>
+            </div>
 
-        <section>
-          <h2>Activities</h2>
-          <h3>Society of Professional Journalists — Member</h3>
-          <p><em>August 2025 – Present</em></p>
-          <ul>
-            <li>Engage in professional development programs promoting ethics and media literacy.</li>
-            <li>Collaborate with peers to advance journalistic standards and public trust.</li>
-          </ul>
-        </section>
+            <div class="experience-item">
+              <h3 class="h5 mb-1">Employee — Walmart (Hampstead, MD)</h3>
+              <p class="mb-2"><em>July 2020 – December 2020</em></p>
+              <ul class="mb-0">
+                <li>Supported sales operations and customer service during high-volume retail shifts.</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h2 class="border-bottom border-2 border-primary pb-1 mb-3">Activities</h2>
+            <h3 class="h6 mb-1">Society of Professional Journalists — Member</h3>
+            <p class="mb-2"><em>August 2025 – Present</em></p>
+            <ul class="mb-0">
+              <li>Engage in professional development programs promoting ethics and media literacy.</li>
+              <li>Collaborate with peers to advance journalistic standards and public trust.</li>
+            </ul>
+          </section>
+        </div>
       </div>
     </div>
   </main>
 
-  <footer>
-    <p>© 2025 Stephen Lotz</p>
+  <footer class="text-center py-4 border-top text-muted">
+    <p class="mb-0">© 2025 Stephen Lotz</p>
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

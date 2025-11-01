@@ -1,44 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact | Stephen Lotz</title>
+  <meta name="description" content="Get in touch with journalist Stephen Lotz for story ideas, freelance work, or collaboration opportunities." />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Merriweather:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">About</a></li>
-        <li><a href="clips.html">Clips</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="contact.html" class="active">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Stephen Lotz</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="clips.html">Clips</a></li>
+          <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+          <li class="nav-item"><a class="nav-link active text-primary fw-semibold" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-  <main class="contact">
-    <h1>Contact</h1>
-    <p>Feel free to reach out for story ideas, freelance opportunities, or collaborations.</p>
+  <main class="container py-5 text-center">
+    <div class="card p-5 mx-auto" style="max-width: 700px;">
+      <h1 class="mb-3 border-bottom pb-2 d-inline-block">Contact</h1>
+      <p class="mb-4">Feel free to reach out for story ideas, freelance opportunities, or collaborations.</p>
 
-    <div class="contact-links">
-      <a href="mailto:slotz@terpmail.umd.edu" class="contact-item email" target="_blank">
-         <span>slotz@terpmail.umd.edu</span>
-      </a>
-
-      <a href="https://www.linkedin.com/in/stephen-lotz-6682a6227/" class="contact-item linkedin" target="_blank">
-         <span>linkedin.com/in/stephen-lotz</span>
-      </a>
-
-      <a href="https://x.com/StephenLotzJOUR" class="contact-item twitter" target="_blank">
-         <span>@StephenLotzJOUR</span>
-      </a>
+      <div class="d-flex flex-column align-items-center gap-3">
+        <a href="mailto:slotz@terpmail.umd.edu" class="contact-item email w-75">Email</a>
+        <a href="https://www.linkedin.com/in/stephen-lotz-6682a6227/" target="_blank" class="contact-item linkedin w-75">LinkedIn</a>
+        <a href="https://x.com/StephenLotzJOUR" target="_blank" class="contact-item twitter w-75">X</a>
+      </div>
     </div>
   </main>
 
-  <footer>
+  <footer class="text-center py-4 border-top text-muted">
     <p>© 2025 Stephen Lotz</p>
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

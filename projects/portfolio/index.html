@@ -1,34 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Stephen Lotz | Portfolio</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">About</a></li>
-        <li><a href="clips.html">Clips</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stephen Lotz | About</title>
+  <meta name="description" content="Stephen Lotz is a freelance journalist and University of Maryland student covering local government and community stories in Greenbelt, Maryland." />
 
-  <main class="about">
-    <section class="bio">
-      <img src="images/profile-pic.jpg" alt="Stephen Lotz headshot" class="headshot">
-      <h1>Stephen Lotz</h1>
-      <p>I’m a freelance journalist covering local government and community stories in Greenbelt, Maryland. My reporting for the <em>Greenbelt News Review</em> explores how policy decisions affect residents’ lives, and my multimedia projects at the University of Maryland focus on storytelling, design, and audience engagement.</p>
-      <p>Through both print and digital work, I aim to make civic issues more accessible to the communities they affect.</p>
-    </section>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Stephen Lotz</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active text-primary fw-semibold" href="index.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="clips.html">Clips</a></li>
+          <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container py-5">
+    <div class="card text-center p-5 mx-auto" style="max-width: 750px;">
+      <img src="images/profile-pic.jpg" alt="Stephen Lotz headshot" class="rounded-circle shadow mb-4" width="160" height="160">
+      <h1 class="mb-3">Stephen Lotz</h1>
+      <h2 class="h5 text-muted mb-4">Freelance Reporter | University of Maryland Journalism Student</h2>
+
+      <p class="mb-3">
+        I’m a freelance journalist covering local government and community stories in Greenbelt, Maryland. 
+        My reporting for the <em>Greenbelt News Review</em> explores how policy decisions affect residents’ lives, 
+        and my multimedia work at the University of Maryland focuses on storytelling, design, and audience engagement.
+      </p>
+    </div>
   </main>
 
-  <footer>
-    <p>© 2025 Stephen Lotz | <a href="mailto:slotz@terpmail.umd.edu">slotz@terpmail.umd.edu</a></p>
+  <footer class="text-center py-4 border-top text-muted">
+    <p>© 2025 Stephen Lotz</p>
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

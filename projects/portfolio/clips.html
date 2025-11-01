@@ -1,81 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Clips | Stephen Lotz</title>
+  <meta name="description" content="Published stories by Stephen Lotz for the Greenbelt News Review, covering city council, education, and public safety in Greenbelt, Maryland." />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Merriweather:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">About</a></li>
-        <li><a href="clips.html" class="active">Clips</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <main class="clips">
-    <h1>Published Work</h1>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Stephen Lotz</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active text-primary fw-semibold" href="clips.html">Clips</a></li>
+          <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container py-5">
+    <h1 class="text-center mb-4">Published Work</h1>
 
     <section>
-      <h2>Greenbelt News Review</h2>
+      <h2 class="section-title mb-4">Greenbelt News Review</h2>
+
+      <div class="d-flex flex-column gap-4">
+
+        <article class="card p-4">
+          <h3 class="mb-2">
+            <a href="https://www.greenbeltnewsreview.com/news-stories/council-advances-potential-plans-for-annexation-of-federal-land/" target="_blank">
+              Council Advances Potential Plans for Annexation of Federal Land
+            </a>
+          </h3>
+          <p>
+            Greenbelt City Council moved forward with a proposal to annex nearby federal land, approving survey funding as officials explore potential boundary expansion.
+          </p>
+          <p class="details mb-0">
+            Published October 1, 2025 — <em>Greenbelt News Review</em>
+          </p>
+        </article>
+
+        <article class="card p-4">
+          <h3 class="mb-2">
+            <a href="https://www.greenbeltnewsreview.com/wordpress/wp-content/uploads/2025/10/GNR20251009.pdf#page=17" target="_blank">
+              Council Moves Toward Changes in Trash Metering, Charter Review
+            </a>
+          </h3>
+          <p>
+            The Greenbelt City Council reviewed recommendations for modernizing trash metering and began a broader charter review process aimed at updating 
+            local governance policies.
+          </p>
+          <p class="details mb-0">
+            Published October 9, 2025 — <em>Greenbelt News Review</em>  
+            <a href="https://www.greenbeltnewsreview.com/wordpress/wp-content/uploads/2025/10/GNR20251009.pdf#page=17" target="_blank">View PDF (page 17)</a>
+          </p>
+        </article>
+
+               <article class="card p-4">
+          <h3 class="mb-2">
+            <a href="https://www.greenbeltnewsreview.com/wordpress/wp-content/uploads/2025/10/GNR20251023.pdf#page=12" target="_blank">
+              Crime Down as Police, Leaders Emphasize Prevention, Community
+            </a>
+          </h3>
+          <p>
+            Greenbelt Police Chief Richard Bowers reported a sharp decline in citywide crime at a community advisory meeting, crediting prevention programs, 
+            youth outreach, and collaboration between residents and law enforcement.
+          </p>
+          <p class="details mb-0">
+            Published October 23, 2025 — <em>Greenbelt News Review</em>  
+            <a href="https://www.greenbeltnewsreview.com/wordpress/wp-content/uploads/2025/10/GNR20251023.pdf#page=12" target="_blank">View PDF (page 12)</a>
+          </p>
+        </article>
 
 
-      <article class="clip">
-        <h3>
-          <a href="https://www.greenbeltnewsreview.com/news-stories/council-advances-potential-plans-for-annexation-of-federal-land/" target="_blank">
-            Council Advances Potential Plans for Annexation of Federal Land
-          </a>
-        </h3>
-        <p>
-          Greenbelt City Council moved forward with a proposal to annex nearby federal land, approving survey funding as officials explore potential boundary expansion. 
-          The story highlights community reactions, land-use considerations, and next steps in the city’s long-term planning process.
-        </p>
-        <p class="details">
-          Published October 1, 2025 — <em>Greenbelt News Review</em>
-        </p>
-      </article> 
-
-      <article class="clip">
-        <h3>
-          <a href="https://www.greenbeltnewsreview.com/wordpress/wp-content/uploads/2025/10/GNR20251023.pdf#page=12" target="_blank">
-            Crime Down as Police, Leaders Emphasize Prevention, Community
-          </a>
-        </h3>
-        <p>
-          Greenbelt Police Chief Richard Bowers reported a sharp decline in citywide crime at a community advisory meeting, crediting prevention programs, 
-          youth outreach, and collaboration between residents and law enforcement. The story covers discussions on juvenile justice, homelessness, and public trust.
-        </p>
-        <p class="details">
-          Published October 23, 2025 — <em>Greenbelt News Review</em>  
-          <a href="https://www.greenbeltnewsreview.com/wordpress/wp-content/uploads/2025/10/GNR20251023.pdf#page=12" target="_blank">View PDF (page 12)</a>
-        </p>
-      </article>
-
-      <article class="clip">
-        <h3>
-          <a href="https://www.greenbeltnewsreview.com/wordpress/wp-content/uploads/2025/10/GNR20251009.pdf#page=17" target="_blank">
-            Council Moves Toward Changes in Trash Metering, Charter Review
-          </a>
-        </h3>
-        <p>
-          The Greenbelt City Council reviewed recommendations for modernizing trash metering and began a broader charter review process aimed at updating 
-          local governance policies. The meeting featured debate on sustainability, fiscal efficiency, and public engagement.
-        </p>
-        <p class="details">
-          Published October 9, 2025 — <em>Greenbelt News Review</em>  
-          <a href="https://www.greenbeltnewsreview.com/wordpress/wp-content/uploads/2025/10/GNR20251009.pdf#page=17" target="_blank">View PDF (page 17)</a>
-        </p>
-      </article>
+      </div>
     </section>
   </main>
 
-  <footer>
+  <footer class="text-center py-4 border-top text-muted">
     <p>© 2025 Stephen Lotz</p>
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
